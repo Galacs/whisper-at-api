@@ -10,7 +10,7 @@ pip install -r requirements.txt
 
 ### Running the API
 
-You have to rename `example.env` to `.env`
+You have to rename `example.env` to `.env` and source it
 
 ```bash
 python app.py

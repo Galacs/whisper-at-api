@@ -16,6 +16,14 @@ You have to rename `example.env` to `.env` and source it
 python app.py
 ```
 
+#### Using docker-compose
+
+You can also use the included docker compose file to directly spin up the app and an s3 minio server
+
+```bash
+docker compose up -d
+```
+
 ### Making requests to the api
 
 #### Curl example
